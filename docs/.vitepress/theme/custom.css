@@ -1,0 +1,52 @@
+/* Pure black dark theme for Starbucks Frontend Redesign Docs */
+:root {
+  --vp-c-brand-1: #00a76f;
+  --vp-c-brand-2: #00c684;
+  --vp-c-brand-3: #1e3932;
+  --vp-c-brand-soft: rgba(0, 167, 111, 0.16);
+}
+
+.dark {
+  --vp-c-bg: #000000 !important;
+  --vp-c-bg-alt: #000000 !important;
+  --vp-c-bg-elv: #0a0a0a !important;
+  --vp-c-bg-soft: #0a0a0a !important;
+  --vp-sidebar-bg-color: #000000 !important;
+  --vp-c-border: #1a2a24 !important;
+  --vp-c-divider: #162a25 !important;
+  --vp-c-text-1: #f7f7f7 !important;
+  --vp-c-text-2: #ababab !important;
+  --vp-c-text-3: #757575 !important;
+}
+
+/* Enhancements for Mermaid Diagrams and Tables */
+.mermaid {
+  background-color: #050d0a !important;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #162a25;
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+th, td {
+  border: 1px solid #1e3932;
+  padding: 10px 14px;
+}
+
+th {
+  background-color: #0c1a16;
+  color: #00c684;
+}
+
+tr:nth-child(even) {
+  background-color: #050b09;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "starbucks-frontend-redesign",
+  "version": "1.0.0",
+  "description": "Starbucks Modern Frontend Redesign - Interactive UX with React 18, GSAP, Locomotive Scroll, and Framer Motion",
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix StarbucksFrontend-Clean-Project run dev",
+    "build": "npm --prefix StarbucksFrontend-Clean-Project run build",
+    "preview": "npm --prefix StarbucksFrontend-Clean-Project run preview",
+    "docs:dev": "vitepress dev docs --port 5190",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --port 5190"
+  },
+  "keywords": [
+    "starbucks",
+    "react18",
+    "gsap",
+    "scrolltrigger",
+    "locomotive-scroll",
+    "framer-motion",
+    "dark-theme",
+    "vite"
+  ],
+  "author": "Avish Jain",
+  "license": "MIT",
+  "devDependencies": {
+    "mermaid": "^11.17.2",
+    "vitepress": "^1.6.4",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  }
+}
